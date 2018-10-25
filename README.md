@@ -1,8 +1,8 @@
 # etch-a-sketch
 
-This project is based on the toy "Etch A Sketch" and was made with HTML, CSS, and JavaScript. 
+This project is based on the toy "Etch A Sketch" and was made with HTML, CSS, and JavaScript.  
 It consists of a "screen" and a button to reset the drawing.
-The "screen" is made of a container div containing a grid of square divs. This grid was implemented with **CSS grid**. The divs of the grid change color as the user moves the cursor over them, leaving a pixelated trail. 
+The "screen" is made of a container div containing a grid of square divs implemented with **CSS Grid**. The divs of the grid change color as the user moves the cursor over them, leaving a pixelated trail. 
 
 The script has 3 functions:
 
