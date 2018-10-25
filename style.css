@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#container {
+    border: 90px solid rgb(172, 6, 6);
+    border-radius: 30px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.534);
+    display: grid;
+    grid: repeat(16, auto) / repeat(16, auto);
+    height: 650px;
+    margin: auto;
+    width: 900px;
+}
+
+#container > div {
+    background-color: rgb(204, 203, 203);
+}
+
+button {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
