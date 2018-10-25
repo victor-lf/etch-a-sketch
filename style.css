@@ -3,8 +3,8 @@ body {
 }
 
 button {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 1.3em;
+    margin: 1em;
 }
 
 #container {
