@@ -4,12 +4,11 @@ let squares = 256;
 function changeColor(e) {
     const hue = Math.random() * 360;
     const saturation = Math.random() * 100;
-    let targetLightness = e.target.getAttribute('data-lightness');
 
     if (e.target.hasAttribute('style')) {
-        e.target.setAttribute('data-lightness', targetLightness - 5);
-        targetLightness = e.target.getAttribute('data-lightness');
-        e.target.style.backgroundColor = `hsl(${hue}, ${saturation}%, ${targetLightness}%)`;
+        e.target.dataset.lightness -= 5;
+        e.target.style.backgroundColor = `hsl(${hue}, ${saturation}%,
+                                              ${e.target.dataset.lightness}%)`;
     } else {
         e.target.setAttribute('data-lightness', 50);
         e.target.style.backgroundColor = `hsl(${hue}, ${saturation}%, 50%)`;
