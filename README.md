@@ -8,7 +8,7 @@ The script has 3 functions:
 - `setChildren()`
 - `setSquares()`
 
-An event listener is added to all grid divs with the `changeColor()` function as callback and a 'mouseenter' event. So, when the user hovers the cursor over a div, `changeColor()` is called and the background color changes to a random color. After the first pass, each pass reduces the lightness of the div by 10%, so that after 10 passes it is completely black. This functionality was implemented using a **custom data attribute (data-*)** called `data-lightness` to keep track of the current lightness of a particular div.
+An event listener is added to all grid divs with the `changeColor()` function as callback and a 'mouseenter' event. So when the user hovers the cursor over a div, `changeColor()` is called and the background color changes to a random color. After the first pass, each pass reduces the lightness of the div by 10%, so that after 10 passes it is completely black. This functionality was implemented using a **custom data attribute (data-*)** called `data-lightness` to keep track of the current lightness of a particular div.
 
 `setChildren()` receives the number of children divs as an argument. It first removes the current children, creates and appends the new ones and adds the event listener.
 
